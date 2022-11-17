@@ -1,0 +1,28 @@
+<!-- Form validation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form validation </title>
+</head>
+<body>
+    <form action="Image.html">
+        <label for="fname"> Enter Your firstName: </label>
+        <input type="text" id="name" name="name" required pattern="[A-Z]{1}[a-z]{1,9}">
+        <br><br>
+    <label for="lname"> Enter Your LastName: </label>
+     <input type="text" id="lname" name="name" required pattern="[A-Za-z]{6,9}">
+    <br><br>
+    <label for="email"> Enter Email: </label>
+    <input type="text" id="email" required pattern="[a-z0-9]+@[a-z0-9]+.[a-z]{3,}">
+    <br><br>
+    <label for="password"> Enter Password: </label>
+    <input type="password" id="password" required pattern="[A-Za-z0-9@!%&*]{8,20}" title="Should contain minimum 8 characters">
+    <br><br>
+    <input type="submit">
+    </form>
+</body>
+</html>

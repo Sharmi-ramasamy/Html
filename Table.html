@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table </title>
+    <style> 
+    
+    table,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    
+    </style>
+</head>
+<body>
+    <table width="50%">
+        <caption style="text-align:left"> <h2> Favo </h2> </caption>
+    <colgroup>
+        <col style="background-color:pink" span="3"/>
+    </colgroup>
+        
+        <tr>
+            <th> Fruits </th>
+            <th> Vegetables </th>
+            <th> Colours </th>
+        </tr>
+
+        <tr>
+            <td> Orange </td>
+            <td> Turnip </td>
+            <td> Orange </td>
+        </tr>
+
+        <tr>
+            <td> Dragon fruit </td>
+            <td> Radish </td>
+            <td> Pink </td>
+        </tr>
+
+        <tr>
+            <td> Jackfruit </td>
+            <td> Drumstick </td>
+            <td> Green </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Table using thead,tbody & tfoot -->
+
+    <table width="50%">
+       <thead>
+        <tr >
+            <th> Hero </th>
+            <th> Colour </th>
+            <th> Place </th>
+        </tr>
+       </thead>
+
+
+        <tbody>
+            <tr >
+                <td> SK </td>
+                <td> Pink </td>
+                <td> Erode </td>
+            </tr>
+
+            <tr >
+                <td> Surya </td>
+                <td> Green </td>
+                <td> Kerala</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr >
+                <td> Vijay </td>
+                <td> Black </td>
+                <td> Singapore </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+
+    <table width="50%">
+        <caption> <h2> To Span Multiple Rows & Columns </h2> </caption>
+     
+        <tr>
+            <th> Colours </th>
+        </tr>
+
+        <tr>
+            <th> Green </th>
+            <td> Light Green </td>
+        </tr>
+
+        <tr>
+            <th> Pink </th>
+        </tr>
+
+        <tr>
+            <th> Black </th>
+            <td> Grey </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table width="50%">
+        <caption> <h2> Using Colspan </h2> </caption>
+        <tr>
+            <th colspan="2"> Name </th>
+            <th> Age</th>
+        </tr>
+
+        <tr>
+            <td> Ram </td>
+            <td> Raj </td>
+            <td> 25 </td>
+        </tr>
+
+        <tr>
+            <td> Dev </td>
+            <td> Diya </td>
+            <td> 29 </td>
+        </tr>
+
+        <tr>
+            <td> Thiru </td>
+            <td> Murthi </td>
+            <td> 28 </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Rowspan -->
+    <table width="50%">
+        <caption> <h3> Using RowSpan </h3> </caption>
+        <tr>
+            <th> Name </th>
+            <td> Ram </td>
+        </tr>
+
+        <tr>
+            <th rowspan="2"> Phone </th>
+            <td> 8234567865 </td>
+        </tr>
+
+        <tr>
+            <td> 897656453 </td>
+        </tr>
+    </table>
+
+</body>
+</html>
