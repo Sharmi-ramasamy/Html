@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Peacock Image </title>
+    <style>
+        img {
+            width:300px;
+        }
+    </style>
 </head>
 <body>
     <figure>
@@ -15,5 +20,26 @@
          </figcaption>
         
     </figure>
+
+    <!-- Width,height and style -->
+    <h3> Width,height and style </h3>
+    <h4> size can be changed</h4>
+    <img src="Images/flower.jpg" alt="Lotus" width="150px" height="150px">
+<!-- The style mentioned in meta tag will only affect the above width & 3rd one bcoz below width is mentioned inside style -->
+    <br><br>
+    <h3> size cannot be changed </h3>
+    <img src="Images/flower.jpg" alt="Lotus" style="width:100px; height:100px;">
+    <br><br>
+    <h4> size can be changed </h4>
+    <img src="Images/flower.jpg" alt="Lotus" width="150px" height="150px">
+
+    <!-- Image Floating -->
+    <h2> Float the image to right: </h2>
+    <img src="Images/Smiley.gif" alt="Smiley" style="width: 100px; height: 100px; float: left;">
+    <p> Paragraph consist of a left floating element</p>
+    <br><br>
+    <h3> Float the image on left </h3>
+    <p> Paragraph consists of image floating on right side of the page </p>
+    <img src="Images/Smiley.gif" alt="Smiley" style="width:100px; height:100px; float:right;">
 </body>
 </html>

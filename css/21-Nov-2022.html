@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Using CSS </title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="mycolors.css">
+    <style>
+       /* Internal CSS */
+        h1 {
+            text-align: center;
+            color: yellowgreen;
+        
+        }
+
+        #name {
+            text-align: center;
+            color:palevioletred;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .demo {
+            text-align: center;
+            color: tomato;
+        }
+
+        h4.select {
+            text-align: left;
+            color: black;
+        }
+
+        h5.select {
+            text-align: left;
+            color: brown;
+        }
+
+       h2.sample {
+            text-align: center;
+       }
+
+        p.sample {
+            text-align: center;
+            color: crimson;
+            
+        }
+
+        p.name {
+            size: 20px;
+        }
+
+        /* * {
+            text-align: right;
+            color: blueviolet;
+        } */
+
+        /* p,h2,h3,h4 {
+            text-align: center;
+            color: yellowgreen;
+        } */
+
+        div {
+            background-color: yellowgreen;
+            text-align: center;
+            color: tomato;
+        }
+
+        span {
+            background-color:blanchedalmond;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: upper-roman;
+        }
+
+        li li {
+            list-style-type: square;
+        }
+        
+
+        </style>
+
+        
+    
+</head>
+<body>
+    <!-- SELECTOR  -->
+    <!-- 1.  Simple Selector  -->
+    <!-- Inline CSS  -->
+    <h1 style="background-color:palevioletred"> Element Selector </h1>
+
+    <!-- 2.id seletor -->
+
+    <h2 id="name"> Hello </h2>
+
+    <!-- 3. class selector -->
+
+    <h3 class="demo"> What is CSS? </h3>
+    <h4 class="demo"> Cascading Style Sheet </h4>
+
+    <!-- In 2 class, style only one , by giving the element  -->
+
+    <h4 class="select"> What is HTML? </h4>
+    <h5 class="select"> HyperText Markup Language </h5>
+    
+    <!-- class selector another type -->
+
+    <h2 class="sample"> Purpose of HTML? </h2>
+    <p class="sample"> HTML is a HyperText Markup Language </p>
+    <p class="sample name"> It has a Hypertext and a Markup tags. </p>
+
+    <!-- 4. Universal Selector * -->
+
+        <!-- <h4> Hi Welcome </h>
+        <p> Css decorates the page.</p>
+        <p> syntax of CSS consist of selector and declaration part.</p> -->
+
+        <!-- 5. Grouping selector
+        <p> How to create the apperance of web page? </p>
+        <h2> HTML </h2>
+        <h3> CSS </h3>
+        <h4> Javascript</h4>
+        <p> Those mentioned above is needed to create a complete webpage. </p> -->
+
+        <!-- Grouping - single line grouping and multi line grouping  -->
+        <h4> Div tag </h4>
+        <div>
+            <p> How to create a complete web page? </p>
+            <p> It can be done with HTML,CSS and javascript.</p>
+        </div>
+
+            <h3> span tag </h3>
+        <p> Basic requirement to create webpages are <span> HTML, CSS, Javascript </span></p>
+        <br><br>
+
+        <!-- list-style-type -->
+        <h2> List Style Type </h2>
+        <ul>
+            <li>
+                <div> Product 1 </div>
+                <ul>
+                    <li> mini product 1</li>
+                    <li> minii product 2 </li>
+                </ul>
+            </li>
+            <li>
+                <div> Product 2 </div>
+                <ul>
+                    <li> mini product 1 </li>
+                    <li> mini product 2 </li>
+                </ul>
+            </li>
+        </ul>
+
+</body>
+</html>

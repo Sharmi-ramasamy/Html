@@ -7,15 +7,20 @@
     <title> Select </title>
 </head>
 <body>
-    <label for="course">Choose a pet:</label>
+    <label for="course">Choose course :</label>
 
 <select name="domain" id="course">
     <option value="Select"> -- Select the Required Course -- </option>
-    <option value="Html"> HTML </option>
+    <option value="Html" selected> HTML </option>
     <option value="Css"> CSS </option>
     <option value="Javascript"> Javascript </option>
     <option value="Es6"> ES6 </option>
     <option value="React"> React </option>
+    <br><br><br>
+    <textarea name="feedback" id="feedback" placeholder="Feedback" style="width: 100px; height: 100px;"></textarea>
+    <br><br>
+    <textarea name="message" id="msg" cols="10" rows="10" placeholder="Messgae"></textarea>
+    <br><br>
 </select>
 <br><br>
 
@@ -23,7 +28,7 @@
 
 <label for="select-pet"> Choose a pet: </label>
 
-<select name="pets" id="select-pet" size="4">
+<select name="pets" id="select-pet" size="4" multiple>
 
     <optgroup label="Pets">
         <option value="dog"> Dog </option>
