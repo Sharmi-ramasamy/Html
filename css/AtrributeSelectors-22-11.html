@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Attribute Selector </title>
+    <style>
+        a[target=_self] {
+            color: green;
+        }
+        a[title~="wiki"] {
+            color: palevioletred;
+        }
+        [class^="demo"] {
+            font-style: italic;
+        }
+        [class^="demo"] {
+            color: blue;
+        }
+        [class$="name"] {
+            background-color: pink;
+        }
+        [class*="te"] {
+            color: tomato;
+        }
+        [id*="te"] {
+            background-color: tomato;
+        }
+        input[type="button"] {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <h4 class="demo-name"> heading </h4>
+    <h5 class="demo name"> heading </h5>
+    <p class="sample-name"> para </p>
+    <p class="test"> test </p>
+    <p class="secondtest"> test 2 </p>
+    <p id="test"> Test 3 </p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flotus&psig=AOvVaw3vqR2AsSvzBYLC-H4mrGef&ust=1669195148309000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCODwp-i6wfsCFQAAAAAdAAAAABAE" target="_self" title="flower"> flower </a><br> 
+    <a href="http://www.wikipedia.org" title="wiki"> wikipedia </a>   <br><br>
+    <input type="button" value="Click Me">
+</body>
+</html>
