@@ -1,0 +1,109 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assessment 1 </title>
+    <style>
+        div li{
+           color: green;
+            list-style: lower-roman;
+        }
+
+        div>p {
+            color: brown;
+        }
+
+        div + p {
+            color: darkorange;
+        }
+
+        div ~ article {
+            background-color: pink  ;
+        }
+
+        #demo {
+            background-color: aqua;
+        }
+
+        .sample {
+            background-color: blue;
+        }
+        
+        h4,h5,h6 {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Descendant Selector  -->
+    <div> 
+        <li> a </li>
+        <li> b </li>
+        <li> c </li>
+        <article> <li> d </li> </article>
+    </div>
+        <li> e </li>
+
+        <!-- Child Selector  -->
+    <div>
+        <p> Para 4 </p>
+        <section> section 1 </section>
+        <aside> aside 1 </aside>
+         <p> para inside div </p>
+    </div>
+
+    <div> 
+        <article> article 2</article>
+    </div>
+
+    <div> 
+        <p> para 6 </p>
+        <p> para 7 </p>
+        <a href="Image.html"></a>
+    </div>
+
+    <div> 
+        <section> section 1 </section>
+    </div>
+
+    <!-- Adjacent Sibling Selector  -->
+    <div> 
+        <p> para 8 </p>
+        <p> para 10 </p>
+        <section> Section 2 </section>
+    </div>
+
+        <p> para  </p>
+
+    <div>
+        <p> para 9 </p>
+    </div>
+
+        <p> para 2</p>
+
+    <div id="demo">
+       <aside> aside </aside>
+    </div>
+        <section class="sample"> sec 1 </section>
+
+        <!-- General Sibling Selector  -->
+    <div class="sample">
+        <article> article 3 </article>
+    </div>
+    
+        <article> article 4 </article>
+        <article> articl 5 </article>
+    <div> 
+        <article> article 6 </article>  
+       <h3> Heading 2 </h3>
+    </div>
+
+    <!-- Grouping Selector -->
+    <h4> heading 4 </h4>
+    <h5> heading 5 </h5>
+    <h5> heading 6 </h5>
+</body>
+</html>
