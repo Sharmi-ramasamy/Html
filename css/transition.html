@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transition </title>
+    <style>
+        
+        .box {
+  border-style:double;
+  border-color: blue;
+  border-width: 5px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color:palevioletred;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+
+.ball {
+    height: 25px;
+    width: 25px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <div class="box"></div>
+    
+</body>
+</html>

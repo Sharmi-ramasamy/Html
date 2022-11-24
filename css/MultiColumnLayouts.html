@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Multi Column Layouts </title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        
+    #column {
+        columns: 2;
+        /* column-count: 4; */
+        column-width: 200px;
+        column-gap: 10px;
+    }
+    .counts {
+        columns: 6 8px;
+    }
+    #go {
+            padding: 10px;
+            margin-left: 500px;
+            background-color: lemonchiffon;
+        }
+    </style>
+    <script>
+        function go() {
+            window.history.go(-1)
+        }
+    </script>
+</head>
+<body>
+    <div id="column">
+        <p>
+            What is HTML? It is a Hypertext Markup Language. Used to form a skeleton like structure to the web page.
+        </p>
+        <p>
+            What is CSS? It is a cascading Style Sheet. used to give a beautiful appearance to the web page.
+        </p>
+        <p>
+            Html and CSS together forms a creative web pages thatwe used to see in our day to day life.
+        </p>
+        <p>
+            Inorder to function the page, Java Script is used and hence it gives a complete website where apparance and the function works properly and correctlyand hence makes the user friendly.
+        </p>
+    </div>
+    <br>
+    <hr>
+    <div class="counts">
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, illum, nisi, error dolorum omnis at pariatur deleniti saepe ea incidunt eligendi est dolorem sunt ipsam quas tempore veniam! Ea, sunt.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit reiciendis minima delectus ducimus eum dolore sed in odit atque! Cupiditate est ducimus, voluptates obcaecati tempora officiis minus a magnam?</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minus nesciunt officiis ad distinctio maxime eos accusantium, modi velit. Vel ipsa modi dolorum unde adipisci numquam voluptates molestias dignissimos ut.</p>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt mollitia blanditiis saepe temporibus? Similique omnis quae possimus aut accusamus? Ipsa, expedita dignissimos? Unde hic iste officiis sit vero error.</p>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore illum voluptatum quis totam architecto doloremque animi asperiores, eos eum laudantium aperiam nostrum obcaecati nesciunt, id praesentium fugit enim nobis aliquam!</p>
+    </div>
+    <br><br><br><br>
+    <button onclick="go()" id="go"> Go </button>
+
+</body>
+</html>

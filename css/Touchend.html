@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Basicsjs </title>
+    <title> Touch End </title>
+    <script>
+        function endfunc() {
+            document.getElementById("end").innerHTML=" Changes on touch end event"
+        }
+    </script>
 </head>
 <body>
-    <p id="demo"></p>
-
-    <script>
-        x=5;
-        y=6;
-        z=x+y;
-        document.getElementById("demo").innerHTML="value of z :" + z;
-        let m="MS";
-        document.write(m);
-    </script>
+    <p id="end" ontouchend="endfunc()"> Touch end occurs here </p>
 </body>
 </html>

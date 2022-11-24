@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> History Of API </title>
+    <script>
+        function backButton() {
+            window.history.back();
+        }
+        function forwardButton() {
+            window.history.forward();
+        }
+        function refresh() {
+            window.history.go()
+        }
+    </script>
+
+    <style>
+        .button {
+            padding: 20px;
+            background-color: aquamarine;
+            margin-left: 200px;
+        }
+        #go {
+            padding: 20px;
+            margin-left: 200px;
+            background-color: aqua;
+        }
+    </style>    
+</head>
+<body>
+
+    <button onclick="backButton()" class="button"> Back </button><br><br>
+    <a href="MultiColumnLayouts.html"><button onclick="forwardButton()" class="button"> Forward </button></a> <br><br>
+    <button onclick="refresh()" id="go"> Refresh </button>
+
+
+    <!--  onclick -->
+    <!-- <h3 id="demo" onclick="myFunction()">Click this text to change the color.</h3>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").style.color = "red";
+        }
+        </script> -->
+        
+</body>
+</html>

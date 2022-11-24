@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BackgroundImage Resize </title>
+    <style>
+        .sample {
+            background-image: url(https://lh3.googleusercontent.com/jUoaTIlBn5ibfQcND2n5OMD6Z7xoqNj-ShHlFR6QuLffLXD5pS8V2eNg1rGlrsRrnDkoQ28O8UHzqzBQKAGY4l1CS2NQSq2SkRScK6FOjl82jppyohK-);
+            background-size: 125px;
+            background-repeat: no-repeat;
+            width: 250px;
+            height: 300px;
+            border: 3px solid;
+            color: green;
+        }
+        .Background {
+            background-image: url(https://lh3.googleusercontent.com/jUoaTIlBn5ibfQcND2n5OMD6Z7xoqNj-ShHlFR6QuLffLXD5pS8V2eNg1rGlrsRrnDkoQ28O8UHzqzBQKAGY4l1CS2NQSq2SkRScK6FOjl82jppyohK-);
+            background-size: 300px 150px;
+            width: 300px;
+            height: 450px;
+            border: 3px solid;
+            color: green;
+            
+        }
+
+        .scaling {
+            background-image: url(https://images.unsplash.com/photo-1616435577207-ca90abc6b732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bG90dXMlMjBmbG93ZXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 400px;
+            height: 400px;
+            border: 3px solid;
+            border-color: green;
+            color: palevioletred;
+            overflow:scroll;
+        }
+
+        .scalingcover {
+            background-image: url(https://images.unsplash.com/photo-1616435577207-ca90abc6b732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bG90dXMlMjBmbG93ZXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+            background-size: cover;
+            width: 400px;
+            height: 400px;
+            border: 3px solid;
+            border-color: green;
+            color: palevioletred;
+            overflow: scroll;
+        }   
+    </style>
+</head>
+<body>
+    <div class="sample"></div><br>
+    <div class="Background"></div><br>
+    <div class="scaling">
+        <p> resizing the element </p>
+    </div>
+    <div class="scalingcover">
+        <p> background-size is cover </p>
+    </div>
+</body>
+</html>
