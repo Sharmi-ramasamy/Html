@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        #circle {
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            background-color: pink;
+            animation-duration: 4s;
+            animation-name: circle;
+            animation-delay: 5s;
+            animation-direction: reverse ;
+            /* animation-iteration-count: infinite; */
+            /* animation-iteration-count: 2; */
+            animation-play-state: running;
+        }
+
+
+        @keyframes circle {
+            0% {
+                background-color: red;
+                left:0px;
+                top: 0px;
+               
+            }
+            25% {
+                background-color: orange;
+                left: 200px;
+                top: 0px;  
+            }
+            50% {
+                background-color: blueviolet;
+               left:200px;
+               top:200px;
+            }
+            75% {
+                background-color: aqua;
+                left: 0px;
+                top: 200px;
+               
+            }
+            100% {
+                background-color: brown;
+                left: 0px;
+                top: 0px;
+               
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+</body>
+</html>

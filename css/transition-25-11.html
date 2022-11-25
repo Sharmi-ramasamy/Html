@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: palevioletred;
+            transition: width 2s;
+            /* transition: width 10s, height 6s; */
+            border-radius: 25px;
+        }
+        div:hover {
+            width: 300px;
+            /* height: 250px; */
+        }
+        h2::after {
+            content: "Property";
+            /* style: "italic" */ 
+        }
+        /*  Transition timing function  */
+        #div1 {
+            transition-timing-function: linear;
+            text-align:center;
+            text-transform:capitalize;
+            
+        }
+        #div2 {
+            transition-timing-function: ease;
+            text-align:center;
+            text-transform:capitalize;
+            
+        }
+        #div3 {
+            transition-timing-function: ease-in;
+            text-align:center;
+            text-transform:capitalize;
+            
+        }
+        #div4 {
+            transition-timing-function: ease-out;
+            text-align:center;
+            text-transform:lowercase;
+            color: aqua;
+            
+        }
+        #div5 {
+            transition-timing-function: ease-in-out;
+            text-align:center;
+            text-transform:uppercase;
+            
+        }
+
+        #div6 {
+            height: 200px;
+            width: 200px;
+           background-color: green;
+           text-align: center;
+           color:orangered;
+           font-style: italic;
+           font-size: x-large;
+           transition-delay: 5s;
+        }
+
+        #div6:hover {
+            background-color: palevioletred;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo"></div><br>
+    <h2> Transition-timing Function </h2>
+    <div id="div1"> linear </div><br>
+    <div id="div2"> ease </div><br>
+    <div id="div3"> ease-in </div><br>
+    <div id="div4"> ease-out </div><br>
+    <div id="div5"> ease-in-out </div><br>
+
+    <!-- transition-delay  -->
+<div id="div6"> delay </div>
+</body>
+</html>
