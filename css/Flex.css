@@ -1,0 +1,15 @@
+.box>ul {
+    background-color: palevioletred;
+    padding:0%;
+    margin:0%;
+    display:flex;
+    align-items:center;
+}
+
+.box ul li {
+    background-color:palegreen;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+
+}

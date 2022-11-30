@@ -1,0 +1,66 @@
+body {
+    background:linear-gradient(100deg, #ebb7f6, #3dcbde);
+}
+#main {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+#box>ul {
+    background-color:grey;
+    padding:10px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-content:center;
+}
+
+#box ul li {
+    color:white;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    border:2px double brown;
+
+    
+}
+
+.content {
+    background-color: palevioletred;
+    padding:10px;
+    margin:0%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+} 
+
+ .content1 {
+    background-color: pink;
+    padding:10px;
+    margin:0%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.content2 {
+    background-color: palevioletred;
+    padding:10px;
+    margin:0%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 5px;    
+}
+
+.container {
+    display:flex;
+}
+
+p {
+    text-align: justify;
+}

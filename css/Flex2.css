@@ -1,0 +1,19 @@
+.box>ul {
+    background-color: palevioletred;
+    padding:0%;
+    margin:0%;
+    display:flex;
+    /* flex-direction:row-reverse; */
+    justify-content:end;
+    flex-wrap: wrap;
+}
+
+.box ul li {
+    background-color:palegreen;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+    width: 150px;
+    height: 150px;
+
+}
