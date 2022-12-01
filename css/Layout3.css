@@ -1,13 +1,17 @@
-body {
-    background-color:lightgoldenrodyellow;
-}
+/* body {
+    background-color:lightgray;   
+    background-image: url("../Images/Nature.jpg");
+    background-repeat: no-repeat;
+
+} */
 
 #main {
-    display: flex;
+    /* display: flex;
     background-color: pink;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 15px; */
     font-family:cursive;
+    text-align: center;
 }
 
 #pongal {
@@ -24,7 +28,8 @@ body {
    
 }
 .demo article{
-    width: 550px;
+    width: 500px;
+    
 }
 
 .pic {
